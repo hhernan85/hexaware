@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @Controller
 public class TestClassController {
-	//nuevo comentario 2
+	//nuevo comentario 5
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String viewHome() {
 		return "index";
